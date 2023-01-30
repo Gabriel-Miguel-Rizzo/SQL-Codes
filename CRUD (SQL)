@@ -16,7 +16,7 @@ VALUES
 (2, 'Jorge', 'Jorge321@gmail.com'),
 (3, 'Fabio', 'Fabio_Garcia@gmail.com');
 
--UPDATE cursos                                           --(Mudar determinados valores em uma tabela)                       
+-UPDATE name                                            --(Mudar determinados valores em uma tabela)                       
 SET Preco_curso = 300
 WHERE ID_Curso = 1;
 
