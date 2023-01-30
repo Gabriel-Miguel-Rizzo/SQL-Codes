@@ -1,0 +1,22 @@
+---------CRUD SQL ----------
+
+-TRUNCATE TABLE name;                                   --(apagar todas as linhas)
+
+-DROP TABLE name;                                       --(excluir a tabela)
+
+-CREATE TABLE name (                                    --(cria uma nova tabela)
+exemple varchar2(100),
+exemple2 number
+
+);                              
+
+-INSERT INTO  name(ID_aluno, Nome_Aluno, Email)         --(Insere valores em uma tabela)
+VALUES
+(1, 'Ana', 'ana123@gmail.com'),
+(2, 'Jorge', 'Jorge321@gmail.com'),
+(3, 'Fabio', 'Fabio_Garcia@gmail.com');
+
+-UPDATE cursos                                           --(Mudar determinados valores em uma tabela)                       
+SET Preco_curso = 300
+WHERE ID_Curso = 1;
+
